@@ -31,3 +31,5 @@ route::get('/greeting', function () {
 route::get('/mobil', [MobilController::class, 'index']);
 route::get('/mobil/create', [MobilController::class, 'create']);
 route::post('/mobil/simpanData', [MobilController::class, 'store']);
+
+route::get('/merk', [MerkController::class, 'index']);
