@@ -33,3 +33,5 @@ route::get('/mobil/create', [MobilController::class, 'create']);
 route::post('/mobil/simpanData', [MobilController::class, 'store']);
 
 route::get('/merk', [MerkController::class, 'index']);
+route::get('/merk/create', [MerkController::class, 'create']);
+route::post('/merk/simpan-data',[MerkController::class, 'store']);
